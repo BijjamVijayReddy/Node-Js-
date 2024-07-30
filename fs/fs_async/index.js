@@ -26,6 +26,15 @@ fs.appendFile("myBio.txt", "  Date is 30th July", (err) => {
     console.log("Text is Added to the File")
 });
 
+// read the file
+fs.readFile("myDeatils.txt", (err, data) => {
+    if (err) {
+        console.log(err, "Error message")
+    } else {
+        console.log(data.toString())
+    }
+})
+
 // to create the floder
 
 fs.mkdir("myDeatils", (err) => {
