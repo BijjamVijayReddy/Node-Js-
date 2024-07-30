@@ -27,11 +27,11 @@ fs.appendFile("myBio.txt", "  Date is 30th July", (err) => {
 });
 
 // read the file
-fs.readFile("myDeatils.txt", (err, data) => {
+fs.readFile("myDeatils.txt", "utf-8", (err, data) => {
     if (err) {
         console.log(err, "Error message")
     } else {
-        console.log(data.toString())
+        console.log(data)
     }
 })
 
