@@ -32,7 +32,6 @@ if (existFloder) {
 } else {
     console.log("floder need to created")
     fs.mkdirSync(newFloder);
-
 };
 
 // append the new Data to existing File
