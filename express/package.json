@@ -1,0 +1,14 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "vijay  is working on the express js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vijay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "file:"
+  }
+}
