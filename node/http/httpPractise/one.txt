@@ -1,4 +1,4 @@
-const cars = [
+ [
     {
         id: "001",
         product_Name: "Lord 2019",
@@ -64,5 +64,3 @@ const cars = [
     },
 ]
 
-// module.exports = { cars }
-module.exports = { cars };
