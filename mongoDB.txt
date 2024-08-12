@@ -1,0 +1,11 @@
+MonogDB Installion
+
+1) Go to MonogDB website and go to comminute server and download it.
+
+2)copy the bin path in file manger and open system variables by click the start Button
+
+3)click the Environment Variables --> Go to system variables --> Double click the Path --> clicks the New --> past the Copy path --> OK
+
+4)Check the MongoDB in Cmd - mongod --version
+
+5)Run shell --  mongosh
