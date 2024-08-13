@@ -31,9 +31,17 @@ some mongoDB commonds:
 A)MongoDB
  1)show dbs -- to show all DBS in system
  2)use <DataBase_name>  --- create the DBS
- 3)db.drop() -- delete the DBS
+ 3)db.dropDatabase() -- delete the DBS
 
  B)collections:
  1)show collections -- to show all Collection in that particular DB
  2)db.createCollection("<collection_Name>");  -- create the collection
  3)db.<collection_Name>.drop() -- delete that collection
+
+ c)documents:
+
+ 1)db.<collection_Name>.insertOne({ "name":"Vijay","age":26}) ---> single Json you can enter;
+ 2)db.<collection_Name>.insertMany([{},{},{}]) --  you can enter many Json in DB,
+ 3)db.<collection_Name>.find() -- to find the all documents in that collection
+ 4) db.<collection_Name>.find({"myName":"vijay"}); -- to find the particular Document
+5)db.<collection_Name>.findOne({"myName":"vijay"}); -- to First the particular Document
