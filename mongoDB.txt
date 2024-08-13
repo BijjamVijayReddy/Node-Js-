@@ -8,4 +8,32 @@ MonogDB Installion
 
 4)Check the MongoDB in Cmd - mongod --version
 
-5)Run shell --  mongosh
+5)Run shell --  mongosh;
+
+
+
+MongoDB Terminologies;
+
+1)mongodb conatins collections and collections conatins documents
+
+    eg: students --- collections
+
+     {
+        "name":"Vijay",
+        "age":26
+     } ---> collection
+
+
+Note: To view the db you need to enter any collection or document.
+
+some mongoDB commonds:
+
+A)MongoDB
+ 1)show dbs -- to show all DBS in system
+ 2)use <DataBase_name>  --- create the DBS
+ 3)db.drop() -- delete the DBS
+
+ B)collections:
+ 1)show collections -- to show all Collection in that particular DB
+ 2)db.createCollection("<collection_Name>");  -- create the collection
+ 3)db.<collection_Name>.drop() -- delete that collection
