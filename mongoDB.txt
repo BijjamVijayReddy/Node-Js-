@@ -45,3 +45,19 @@ A)MongoDB
  3)db.<collection_Name>.find() -- to find the all documents in that collection
  4) db.<collection_Name>.find({"myName":"vijay"}); -- to find the particular Document
 5)db.<collection_Name>.findOne({"myName":"vijay"}); -- to First the particular Document
+
+
+
+
+ comparsion Operators:
+
+ $eq - equal to
+ $ne - not equal to
+ $gt - greather than
+ $gte - greather than equal to
+ $it - lessthan
+ $ite - lessthan equal to
+ $in - in operator
+ $nin - not in operator
+ $type- to find the type
+ $exists - to find the exists or not
