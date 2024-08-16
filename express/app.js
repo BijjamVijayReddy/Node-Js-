@@ -6,7 +6,7 @@ const apiData = require("../assests/product.json");
 const port = 8000;
 
 // Use the CORS middleware
-app.use(cors());
+// app.use(cors());
 
 app.get("/", (req, res) => {
     res.send("Welcome to HomePage")
@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 
 // userInfo;
 
-app.get("/users", (req,res) => {
+app.get("/users", (req, res) => {
     res.send(apiData)
 })
 

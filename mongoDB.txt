@@ -60,4 +60,18 @@ A)MongoDB
  $in - in operator
  $nin - not in operator
  $type- to find the type
- $exists - to find the exists or not
+ $exists - to find the exists or not;
+
+
+  Logical Operator
+
+1)$and
+2)$or
+3)$not
+4)$nor
+
+syntax
+{$and:[{comdition1},{comdition2},{comdition1},....]}
+{$or:[{comdition1},{comdition2},{comdition1},....]}
+
+{$not:{operator:value}}
