@@ -9,7 +9,7 @@ const port = 8000;
 // app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send("Welcome to HomePage")
+    res.send("Welcome to Dashboard")
 });
 
 // userInfo;
